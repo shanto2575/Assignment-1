@@ -1,27 +1,33 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Arial Narrow Bold', sans-serif;
 }
-body,html{
+
+body,
+html {
     width: 100%;
     height: 100%;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     padding: 16px 120px;
 }
-.nav-center ul{
+
+.nav-center ul {
     display: flex;
     gap: 32px;
 }
-.nav-center ul li{
+
+.nav-center ul li {
     list-style: none;
 }
-.nav-btn button{
+
+.nav-btn button {
     padding: 12px 16px;
     background-color: #30B868;
     border-radius: 5px;
@@ -30,7 +36,7 @@ body,html{
 }
 
 
-.hero-Section{
+.hero-Section {
     height: 674px;
     background-image: url("./assets/hero-bg.png");
     background-position: center;
@@ -40,7 +46,8 @@ body,html{
     justify-content: center;
     align-items: center;
 }
-.hero-content{
+
+.hero-content {
     width: 1360px;
     text-align: center;
     display: flex;
@@ -49,45 +56,52 @@ body,html{
     align-items: center;
     gap: 32px;
 }
-.hero-content .Early{
+
+.hero-content .Early {
     background-color: white;
-    color:#30B868;
+    color: #30B868;
     border-radius: 20px;
     padding: 8px 12px;
 }
-.dot{
+
+.dot {
     height: 16px;
     width: 16px;
     background-color: #30B868;
     border-radius: 50%;
 }
-.hero-Section .text{
+
+.hero-Section .text {
     width: 770px;
     height: auto;
-    font-size:72px ;
+    font-size: 72px;
     font-weight: 700;
     font-style: bold;
     color: #FFFFFF;
     text-transform: capitalize;
 }
-.hero-Section .text-span{
-    color:#30B868;
+
+.hero-Section .text-span {
+    color: #30B868;
 
 }
-.hero-Section p{
+
+.hero-Section p {
     font-size: 18px;
     width: 1360px;
     height: auto;
-    color:#FFFFFF;
+    color: #FFFFFF;
     font-weight: 400;
     text-align: center;
     margin-bottom: 5px;
 }
-.button{
+
+.button {
     display: flex;
-    gap:16px
+    gap: 16px
 }
-.first-btn{
+
+.first-btn {
     padding: 16px;
     text-align: center;
     background-color: #30B868;
@@ -96,10 +110,79 @@ body,html{
     border: 1px solid #30B868;
     border-radius: 5px;
 }
-.second-btn{
+
+.second-btn {
     padding: 16px;
     background-color: transparent;
     color: #FFFFFF;
     border: 1px solid white;
     border-radius: 5px;
 }
+
+.Note-section {
+    max-width: 1360px;
+    margin: 120px auto;
+}
+
+.Note-header {
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.Note-header h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.Note-header p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.Note-card {
+    flex: 1;
+    width: 322px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    padding: 24px 16px;
+    gap: 16px;
+    background-color: #ffffff;
+}
+
+.Note-card img {
+    height: 32px;
+    width: 32px;
+    background-color: #f95555;
+    padding: 3px 4px;
+    border-radius: 50%;
+}
+
+.Note-card h2 {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.Note-card p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 100;
+}
+
