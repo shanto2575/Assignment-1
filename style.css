@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Arial Narrow Bold', sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 body,
@@ -34,13 +34,14 @@ html {
     border: none;
     color: #FFFFFF;
 }
-.nav-btn button:hover{
+
+.nav-btn button:hover {
     background-color: #15703b;
 }
 
 .hero-Section {
     height: 674px;
-    background-image: url("./assets/hero-bg.png");
+    background-image: linear-gradient(180deg, rgba(4, 4, 60, 0.6)0%, rgba(3, 3, 35, 0.3)100%), url("./assets/hero-bg.png");
     background-position: center;
     background-size: cover;
     padding: 70px 120px;
@@ -66,10 +67,13 @@ html {
     padding: 8px 12px;
 }
 
-.dot {
-    height: 16px;
-    width: 16px;
-    background-color: #30B868;
+.dot{
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    background-color: #15703b;
     border-radius: 50%;
 }
 
@@ -92,7 +96,7 @@ html {
     font-size: 18px;
     width: 1360px;
     height: auto;
-    color: #FFFFFF;
+    color:#e5e7eb;
     font-weight: 400;
     text-align: center;
     margin-bottom: 5px;
@@ -109,11 +113,12 @@ html {
     text-align: center;
     background-color: #30B868;
     color: #FFFFFF;
-    font-weight: 600;
+    font-weight: 500;
     border: 1px solid #30B868;
     border-radius: 5px;
 }
-.first-btn:hover{
+
+.first-btn:hover {
     background-color: #15703b;
 }
 
@@ -124,9 +129,12 @@ html {
     border: 1px solid white;
     border-radius: 5px;
 }
-.second-btn:hover{
-    background-color:#627382;
+
+.second-btn:hover {
+    background-color: #627382;
 }
+
+/* Note section */
 .Note-section {
     max-width: 1360px;
     margin: 120px auto;
@@ -147,6 +155,7 @@ html {
 .Note-header p {
     font-size: 16px;
     font-weight: 400;
+    color: #627382;
 }
 
 .Card {
@@ -158,14 +167,13 @@ html {
 }
 
 .Note-card {
-    
     width: 322px;
     height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.26);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.09);
     border-radius: 8px;
     padding: 24px 16px;
     gap: 16px;
@@ -176,7 +184,7 @@ html {
     height: 32px;
     width: 32px;
     background-color: #f95555;
-    padding: 3px 4px;
+    padding: 6px 6px;
     border-radius: 50%;
 }
 
@@ -190,19 +198,23 @@ html {
 .Note-card p {
     text-align: center;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 400;
+    color: #627382;
 }
 
-.Second-Brain-section{
+/* Second Brain Section */
+.Second-Brain-section {
     max-width: 1360px;
     margin: 120px auto;
     display: flex;
 }
-.Second-Brain-img{
+
+.Second-Brain-img {
     width: 600px;
     height: 600px;
 }
-.Second-Brain-text{
+
+.Second-Brain-text {
     width: 700px;
     height: 600px;
     padding: 100px 0 100px 50px;
@@ -212,51 +224,57 @@ html {
     align-items: flex-start;
     gap: 16px;
 }
-.Second-Brain-text h3{
-    color:#30B868;
+
+.Second-Brain-text h3 {
+    color: #30B868;
     font-size: 16px;
     font-weight: 500;
 }
-.Second-Brain-text h2{
+
+.Second-Brain-text h2 {
     font-size: 47px;
     font-weight: 700;
     text-transform: capitalize;
 }
-.Second-Brain-text p{
+
+.Second-Brain-text p {
     font-size: 16px;
     font-weight: 400;
     color: #627382;
-    
+
 }
-.p{
+
+.p {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap:16px
-    
+    gap: 16px
 }
-.p p{
+
+.p p {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    gap:16px
+    gap: 16px;
+    color: #0a0b0d;
 }
 
 /* Early-Access-section */
-.Early-Access-section{
+.Early-Access-section {
     max-width: 1360px;
     margin: auto;
     padding: 80px 40px;
     background-color: #F7F6F2;
-    
-    
-    
+    border-radius: 8px;
+
+
 }
-.Early-Access-header{
+
+.Early-Access-header {
     max-width: 800px;
-    margin:0 auto;
+    margin: 0 auto;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -264,67 +282,94 @@ html {
     align-items: center;
     gap: 16px;
 }
-.Early-Access-header h1{
+
+.Early-Access-header h1 {
     font-size: 40px;
     font-weight: 700;
     text-transform: capitalize;
-    
+
 }
 
-.Early-Access-header p{
+.Early-Access-header p {
     font-size: 16px;
     font-weight: 400;
     color: #627382;
 }
-.Early-Access-header button{
+
+.Early-Access-header button {
     font-size: 16px;
     padding: 12px 16px;
     background-color: #30B868;
     border: none;
     border-radius: 8px;
+    color:#FFFFFF;
 }
-.Early-Access-header button:hover{
-    background-color:#15703b;
+
+.Early-Access-header button:hover {
+    background-color: #15703b;
 }
-.Early-Access-header span{
+
+.Early-Access-header span {
     color: #627382;
 }
 
-footer{
+.Early-Access-header .Access-ul ul{
+    display: flex;
+    gap: 16px;
+    color:#627382 ;
+}
+.Early-Access-header .Access-ul ul li{
+    font-size: 16px;
+    font-weight: 400;
+}
+.Early-Access-header .Access-ul ul .first{
+    margin-right: 7px;
+    list-style: none;
+}
+
+/* footer */
+footer {
     width: 100%;
-    background-color: darkblue;
     margin-top: 120px;
     padding: 120px 120px 30px 120px;
+    color: #e5e7eb;
+    background-image: linear-gradient(180deg, #052544 0%, #021424 100%);
 }
-.footer-head{
+
+.footer-head {
     width: 1360px;
     margin: auto;
-    
+
     text-align: center;
 }
-.footer-top{
+
+.footer-top {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    
+
 }
-.social{
+
+.social {
     display: flex;
     flex-direction: column;
-    align-items: flex-start ;
+    align-items: flex-start;
     justify-content: flex-start;
     padding-right: 20px;
 }
-.footer-top .social p{
+
+.footer-top .social p {
     font-size: 20px;
     color: #F7F6F2;
     margin-bottom: 8px;
 }
-.footer-top .social ul{
+
+.footer-top .social ul {
     display: flex;
     gap: 5px;
 }
-.footer-top .social ul li{
+
+.footer-top .social ul li {
     list-style: none;
     background-color: #F7F6F2;
     border-radius: 50%;
@@ -336,18 +381,19 @@ footer{
     align-items: center;
     justify-content: center;
 }
-.footer-top .social ul li:hover{
-    background-color:hotpink;
+
+.footer-top .social ul li:hover {
+    background-color: hotpink;
 }
+
 .footer-top {
-    border-bottom: 2px solid black;
+    border-bottom: 2px dotted rgba(45, 55, 73, 0.5) ;
     padding-bottom: 80px;
 }
-.footer-bottom{
-    color:#F7F6F2;
+
+.footer-bottom {
+    color: #F7F6F2;
     padding-top: 30px;
     font-size: 16px;
     font-weight: 400;
 }
-
-
