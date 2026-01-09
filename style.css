@@ -34,7 +34,9 @@ html {
     border: none;
     color: #FFFFFF;
 }
-
+.nav-btn button:hover{
+    background-color: #15703b;
+}
 
 .hero-Section {
     height: 674px;
@@ -101,6 +103,7 @@ html {
     gap: 16px
 }
 
+
 .first-btn {
     padding: 16px;
     text-align: center;
@@ -110,6 +113,9 @@ html {
     border: 1px solid #30B868;
     border-radius: 5px;
 }
+.first-btn:hover{
+    background-color: #15703b;
+}
 
 .second-btn {
     padding: 16px;
@@ -118,7 +124,9 @@ html {
     border: 1px solid white;
     border-radius: 5px;
 }
-
+.second-btn:hover{
+    background-color:#627382;
+}
 .Note-section {
     max-width: 1360px;
     margin: 120px auto;
@@ -212,6 +220,7 @@ html {
 .Second-Brain-text h2{
     font-size: 47px;
     font-weight: 700;
+    text-transform: capitalize;
 }
 .Second-Brain-text p{
     font-size: 16px;
@@ -258,6 +267,7 @@ html {
 .Early-Access-header h1{
     font-size: 40px;
     font-weight: 700;
+    text-transform: capitalize;
     
 }
 
@@ -274,7 +284,7 @@ html {
     border-radius: 8px;
 }
 .Early-Access-header button:hover{
-    background-color: tomato;
+    background-color:#15703b;
 }
 .Early-Access-header span{
     color: #627382;
@@ -283,5 +293,61 @@ html {
 footer{
     width: 100%;
     background-color: darkblue;
+    margin-top: 120px;
+    padding: 120px 120px 30px 120px;
 }
+.footer-head{
+    width: 1360px;
+    margin: auto;
+    
+    text-align: center;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+    justify-content: flex-start;
+    padding-right: 20px;
+}
+.footer-top .social p{
+    font-size: 20px;
+    color: #F7F6F2;
+    margin-bottom: 8px;
+}
+.footer-top .social ul{
+    display: flex;
+    gap: 5px;
+}
+.footer-top .social ul li{
+    list-style: none;
+    background-color: #F7F6F2;
+    border-radius: 50%;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    font-size: 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-top .social ul li:hover{
+    background-color:hotpink;
+}
+.footer-top {
+    border-bottom: 2px solid black;
+    padding-bottom: 80px;
+}
+.footer-bottom{
+    color:#F7F6F2;
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 
