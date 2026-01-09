@@ -37,6 +37,8 @@ html {
 
 .nav-btn button:hover {
     background-color: #15703b;
+    color: #000000;
+    cursor: pointer;
 }
 
 .hero-Section {
@@ -120,6 +122,8 @@ html {
 
 .first-btn:hover {
     background-color: #15703b;
+    color:#000000;
+    cursor: pointer;
 }
 
 .second-btn {
@@ -132,6 +136,8 @@ html {
 
 .second-btn:hover {
     background-color: #627382;
+    color:#f95555;
+    cursor: pointer;
 }
 
 /* Note section */
@@ -307,6 +313,8 @@ html {
 
 .Early-Access-header button:hover {
     background-color: #15703b;
+    color: #000000;
+    cursor: pointer;
 }
 
 .Early-Access-header span {
